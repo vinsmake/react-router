@@ -11,11 +11,11 @@ export const MainApp = () => {
         <hr/>
 
         <Routes>
-            <Route path="react-router/" element={<Home />}/>
-            <Route path="react-router/about" element={<About />}/>
-            <Route path="react-router/blog" element={<Blog />}/>
-            <Route path="react-router/contact" element={<Contact />}/>
-            <Route path="react-router/*" element={<Navigate to="/react-router/"/>}/>
+            <Route path="/" element={<Home />}/>
+            <Route path="/about" element={<About />}/>
+            <Route path="/blog" element={<Blog />}/>
+            <Route path="/contact" element={<Contact />}/>
+            <Route path="/*" element={<Navigate to="/react-router/"/>}/>
         </Routes>
     </>
     )

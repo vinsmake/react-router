@@ -5,7 +5,7 @@ import { MainApp } from './pages/MainApp.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <HashRouter basename='/app'>
+  <HashRouter basename='/'>
     <MainApp />
   </HashRouter>,
 )

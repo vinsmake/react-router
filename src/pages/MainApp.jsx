@@ -1,13 +1,15 @@
-import { Navigate, Route, Routes } from "react-router-dom"
+import { Link, Navigate, Route, Routes } from "react-router-dom"
 import { Home } from "./Home"
 import { About } from "./About"
 import { Blog } from "./Blog"
 import { Contact } from "./Contact"
+import { Nav } from "./Nav"
 
 export const MainApp = () => {
     return (
     <>
         <h1>MainApp</h1>
+        <Nav/>
         <hr/>
 
         <Routes>
